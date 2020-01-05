@@ -6,7 +6,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../sp02-itemservice/pom.xml" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/../sp04-orderservice/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/../sp03-userservice/pom.xml" />
+>>>>>>> master
       </list>
     </option>
   </component>
