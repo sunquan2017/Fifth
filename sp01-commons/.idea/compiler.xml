@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sp01-commons" />
+        <module name="sp03-userservice" />
         <module name="sp02-itemservice" />
+        <module name="sp01-commons" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="sp02-itemservice" options="-parameters" />
+      <module name="sp03-userservice" options="-parameters" />
     </option>
   </component>
 </project>
